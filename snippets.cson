@@ -1,0 +1,15 @@
+'.text.html.php':
+
+  #WORDPRESS SNIPETS
+  'WP PERMALINK':
+    prefix: 'wpp'
+    body: '<?php the_pernalink() ?>'
+  'WP TITLE':
+    prefix: 'wpt'
+    body: '<?php the_title() ?>'
+  'WP CONTENT':
+    prefix: 'wpc'
+    body: '<?php the_content() ?>'
+  'WP EXCERPT':
+    prefix: 'wpe'
+    body: '<?php the_excerpt() ?>'
