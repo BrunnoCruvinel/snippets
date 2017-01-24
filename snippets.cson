@@ -25,3 +25,9 @@
   'WP PAGINATION':
     prefix: 'wppg'
     body: '<?php wp_pagination() ?>'
+  'WP TEMPLATE DIRECTORY':
+    prefix: 'wptd'
+    body: '<?php echo bloginfo("template_directory") ?>/'
+  'WP TEMPLATE NAME':
+    prefix: 'wptn'
+    body: '<?php /* Template Name: $1 */ ?>'
