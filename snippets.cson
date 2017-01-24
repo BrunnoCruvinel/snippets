@@ -1,15 +1,27 @@
 '.text.html.php':
 
   #WORDPRESS SNIPETS
+  'WP GET HEADER':
+    prefix: 'wpgh'
+    body: '<?php get_header() ?>'
+  'WP GET FOOTER':
+    prefix: 'wpgf'
+    body: '<?php get_footer() ?>'
+  'WP GET SIDEBAR':
+      prefix: 'wpgs'
+      body: '<?php get_sidebar() ?>'
   'WP PERMALINK':
-    prefix: 'wpp'
+    prefix: 'wptp'
     body: '<?php the_pernalink() ?>'
   'WP TITLE':
-    prefix: 'wpt'
+    prefix: 'wptt'
     body: '<?php the_title() ?>'
   'WP CONTENT':
-    prefix: 'wpc'
+    prefix: 'wptc'
     body: '<?php the_content() ?>'
   'WP EXCERPT':
-    prefix: 'wpe'
+    prefix: 'wpte'
     body: '<?php the_excerpt() ?>'
+  'WP PAGINATION':
+    prefix: 'wppg'
+    body: '<?php wp_pagination() ?>'
