@@ -2,7 +2,7 @@
 
 ## Wordpress Snippets
 
-*All starts with 'wp'*
+*All Wordpress snippets begins with 'wp'*
 
 **wpgh** = <?php get_header() ?>  
 **wpgf** = <?php get_footer() ?>  
