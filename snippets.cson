@@ -12,7 +12,7 @@
       body: '<?php get_sidebar() ?>'
   'WP PERMALINK':
     prefix: 'wptp'
-    body: '<?php the_pernalink() ?>'
+    body: '<?php the_permalink() ?>'
   'WP TITLE':
     prefix: 'wptt'
     body: '<?php the_title() ?>'
@@ -31,3 +31,6 @@
   'WP TEMPLATE NAME':
     prefix: 'wptn'
     body: '<?php /* Template Name: $1 */ ?>'
+  'WP SITE URL':
+    prefix: 'wpsu'
+    body: '<?php echo site_url() ?>/'
