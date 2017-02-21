@@ -34,3 +34,6 @@
   'WP SITE URL':
     prefix: 'wpsu'
     body: '<?php echo site_url() ?>/'
+  'WP LOOPING':
+    prefix: 'wplp'
+    body: '<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>\n  $1\n<?php endwhile;endif ?>'
