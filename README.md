@@ -4,11 +4,11 @@
 
 *All Wordpress snippets begins with 'wp'*
 
-**wpgh** = <?php get_header() ?>  
-**wpgf** = <?php get_footer() ?>  
-**wpgs** = <?php get_sidebar() ?>  
-**wptp** = <?php the_permalink() ?>  
-**wptt** = <?php the_title() ?>  
-**wptc** = <?php the_content() ?>  
-**wpte** = <?php the_excerpt() ?>  
-**wppg** = <?php wp_pagination() ?>  
+**wpgh** = get_header()   
+**wpgf** = get_footer()  
+**wpgs** = get_sidebar()  
+**wptp** = the_permalink()  
+**wptt** = the_title()  
+**wptc** = the_content()  
+**wpte** = the_excerpt()  
+**wppg** = wp_pagination()  
