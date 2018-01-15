@@ -39,13 +39,17 @@
     
  #JQUERY
 '.source.js, .source.js-semantic':
+  'JQ DOCUMENT READY':
+    prefix: 'jqr'
+    body: '$(document).ready(function() {\n $1\n})'
   'JQ DOM ELEMENT':
-    'prefix': 'jq'
-    'body': '\$(\'${1}\').$0'
+    prefix: 'jq'
+    body: '\$(\'${1}\').$0'
   'JQ CLICK':
     prefix: 'jqc'
     body: '$(\'$1\').on(\'click\', function(){  $2  })'
   'JQ AJAX':
     prefix: 'jqa'
     body: '$.ajax({\n  type:\'$1\',\n  url: \'$2\',\n  data: {$3},\n  success: function(r){\n   console.log(r)\n  }\n})'
+
 
