@@ -40,7 +40,7 @@
  #JQUERY
 '.source.js, .source.js-semantic':
   'JQ DOM ELEMENT':
-    'prefix': '$'
+    'prefix': 'jq'
     'body': '\$(\'${1}\').$0'
   'JQ CLICK':
     prefix: 'jqc'
