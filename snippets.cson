@@ -1,6 +1,5 @@
+#WORDPRESS SNIPETS
 '.text.html.php':
-
-  #WORDPRESS SNIPETS
   'WP GET HEADER':
     prefix: 'wpgh'
     body: '<?php get_header() ?>'
@@ -37,3 +36,16 @@
   'WP LOOPING':
     prefix: 'wplp'
     body: '<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>\n  $1\n<?php endwhile;endif ?>'
+    
+ #JQUERY
+'.source.js, .source.js-semantic':
+  'JQ DOM ELEMENT':
+    'prefix': '$'
+    'body': '\$(\'${1}\').$0'
+  'JQ CLICK':
+    prefix: 'jqc'
+    body: '$(\'$1\').on(\'click\', function(){  $2  })'
+  'JQ AJAX':
+    prefix: 'jqa'
+    body: '$.ajax({\n  type:\'$1\',\n  url: \'$2\',\n  data: {$3},\n  success: function(r){\n   console.log(r)\n  }\n})'
+
